@@ -1,0 +1,34 @@
+#compdef tw
+# ------------------------------------------------------------------------------
+# Description
+# -----------
+#
+#  Completion script for tw
+#
+#  Source: https://rubygems.org/gems/tw
+#
+# ------------------------------------------------------------------------------
+# Authors
+# -------
+#
+#  * Akira Maeda (glidenote@gmail.com)
+#
+# ------------------------------------------------------------------------------
+
+_arguments -s -S \
+  '-u=[user account]:USERNAME:' \
+  '-user=[user account]:USERNAME:' \
+  '-user\:add[add user]' \
+  '-user\:list[add list]' \
+  '-user\:default=[set default user]:USERNAME:' \
+  '(-timeline -lt)'{-timeline,-lt}'[show timeline]' \
+  '-dm[show direct messages]' \
+  '-dm\:to[create direct messages]' \
+  '(-search -s)'{-search,-s}'[search public timeline]' \
+  '(-stream -st)'{-stream,-st}'[show user stream]' \
+  '-pipe[pipe tweet]' \
+  '(-version -v)'{-version,-v}'[show version]' \
+  '(-help -h)'{-help,-h}'[show help]' \
+  '--search=[search public timeline]:VALUE:' \
+  '--stream\:filter=[show stream timeline]:FILTERNAME:' \
+  '--dm\:to=[create direct messages]:USERNAME MESSAGE:'
