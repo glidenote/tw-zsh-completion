@@ -4,11 +4,8 @@
 
 ## Installation
 
-Install [tw](https://rubygems.org/gems/tw).
-
-## put `_tw` file in the zsh function directory
-
-put `_tw` file to zsh functions directory (/usr/share/zsh/site-functions/ or /usr/local/share/zsh/site-functions/)
+1. Install [tw](https://rubygems.org/gems/tw).
+2. Put `_tw` file to zsh functions directory (/usr/share/zsh/site-functions/ or /usr/local/share/zsh/site-functions/)
 
 ``` shell
 git clone git://github.com/glidenote/tw-zsh-completion.git
