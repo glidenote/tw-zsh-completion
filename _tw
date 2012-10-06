@@ -19,7 +19,7 @@ _arguments -s -S \
   '-u=[user account]:USERNAME:' \
   '-user=[user account]:USERNAME:' \
   '-user\:add[add user]' \
-  '-user\:list[add list]' \
+  '-user\:list[show user list]' \
   '-user\:default=[set default user]:USERNAME:' \
   '(-timeline -lt)'{-timeline,-lt}'[show timeline]' \
   '-dm[show direct messages]' \
